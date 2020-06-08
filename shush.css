@@ -1,3 +1,6 @@
-.ember50 {
+#ember50 {
+    display: none !important;
+}
+#voyager-feed {
     display: none !important;
 }
