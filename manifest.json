@@ -13,9 +13,9 @@
 
   "content_scripts": [
     {
-      "css": [
-        "shush.css"
-      ],
+      "all_frames": true,
+      "css": ["shush.css"],
+      "run_at": "document_idle",
       "matches": [
         "*://*.linkedin.com/*"
       ]
